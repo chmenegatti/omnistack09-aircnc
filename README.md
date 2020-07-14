@@ -1,52 +1,61 @@
+<h1 align="center">
+<br>
+  <img src="https://svgshare.com/i/G_S.svg" alt="AirCnC" width="120">
+<br>
+<br>
+Tindev
+</h1>
+
+<p align="center">The monorepo of a clone of tinder mobile and web app, built in a Omnistack Week</p>
+
 <p align="center">
-<img src="mobile/src/assets/logo@2x.png" />
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+  </a>
 </p>
 
-# AirCnC | Code & Coffee <br/>
-
-### This is a study project only and has no involvement with the Airbnb brand. :books:
-
-<img src="presentation.png" />
-
-### :star2: [Please, visit the Behance presentation](https://www.behance.net/gallery/87330149/NodeJS-ReactJS-React-Native-AirCnC-Mobile-App)
-### :electric_plug: Requeriments
-
-- Node.JS >= 10.16.2
-- Yarn >= 1.17.3
-- Expo >= 3.1.2
-- NPM >= 6.9.0
-
-### :camera: <a href="SCREENSHOTS.md">Click here to see the project screenshots</a>
+<p align="center">
+  <img src="banner.png" alt="demo-web" height="425" />
+</p>
 
 <hr />
 
-### Getting started - Backend
-<img src="screenshots/getting-started/backend.png" />
+## Features
 
-#### :warning: IMPORTANT :warning:
-_To make your own changes, please create your cluster in <a href="https://www.mongodb.com/">MongoDB Atlas</a>_
+This app features all the latest tools and practices in mobile development!
 
-After create and init the cluster, change the database config in <b>backend/src/server.js</b> file<br/>
-`mongoose.connect('your-mongodb-connect-here`<br/>
+- ⚛️ **React Js** — A JavaScript library for building user interfaces
+- ⚛️ **React Native** — A lib that provides a way to create native apps for Android and iOS
+- 💹 **Node Js** — A web framework for Node Js
+- 📄 **MongoDB** — A cross-platform and open-source document-oriented database
+- ♻️ **Socket IO** — A library for realtime web applications 
 
-:heavy_exclamation_mark: The backend will start on 3333 port
+## 01. Getting started
 
-<hr />
+1. Clone this repo using `https://github.com/chmenegatti/omnistack09-aircnc.git`
+2. Move yourself to the appropriate directory: `cd aircnc`<br />
+3. Run `yarn` to install dependencies<br />
 
-### :computer: Getting started the frontend 
-<img src="screenshots/getting-started/frontend.png" />
+### 02. Starting with backend server
 
-:heavy_exclamation_mark: The frontend will start on 3000 port
+1. Move yourself to the backend folder: `cd backend`
+2. Create a `.env` file and add the MongoDB url connection in MONGO_URL field
+3. Run `yarn dev` to start the server
 
-<hr />
+### 03. Starting with the frontend app
 
-### :iphone: Getting started the mobile 
-<img src="screenshots/getting-started/mobile.png" />
+1. Move yourself to the frontend folder: `cd frontend`
+2. Run `yarn start` to start the web application
 
-:heavy_exclamation_mark: The backend will start on 19002 port and the Expo client on <b>exp://YourLocalIP:19000</b> or Tunnel.
+### 04. Starting with the mobile app
 
-:newspaper: <a href="https://docs.expo.io/versions/latest/workflow/how-expo-works/">Learn about how expo works here.</a>
+1. Move yourself to the mobile folder: `cd mobile`
+2. Run `react-native run-ios` (or `run-android` if your prefer) to start the mobile app
 
-<hr/>
+Note: If you choose to start the mobile app in the android emulator, you will have to start the emulator before using
+the `run-android` command.
 
-### <a href="http://linkedin.com/in/leonardoalmeida99">Connect me in LinkedIn</a> | <a href="http://behance.net/almeida99">See my Behance</a> | <a href="https://leunardo.dev">Click here to go to my CV</a>
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
