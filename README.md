@@ -3,7 +3,7 @@
   <img src="mobile/src/assets/logo.svg" alt="AirCnC" width="240">
 <br>
 </h1>
-<p align="center">The monorepo of a clone of tinder mobile and web app, built in a Omnistack Week</p>
+<p align="center">The monorepo for mobile and web app, built in a Omnistack Week</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
