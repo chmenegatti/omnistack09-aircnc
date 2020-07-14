@@ -1,10 +1,7 @@
 <h1 align="center">
 <br>
-  <img src="https://svgshare.com/i/G_S.svg" alt="AirCnC" width="120">
+  <img src="mobile/src/assets/logo.svg" alt="AirCnC" width="360">
 <br>
-<br>
-Tindev
-</h1>
 
 <p align="center">The monorepo of a clone of tinder mobile and web app, built in a Omnistack Week</p>
 
